@@ -12,9 +12,20 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 96px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
 p {
     font-family: var(--default-font-family);
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .hero {
@@ -43,4 +54,25 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    background: var(--branding-color);
+    border-radius: 1px solid var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    .project description {
+        padding: 0;
+        text-align: center;
+    }
 }
